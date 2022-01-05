@@ -37,7 +37,7 @@ export function sendNear(receiver: string): boolean {
 // const yoctoNear: u128  = u128.from(amount*1000000000000000000000000)
   const rec = ContractPromiseBatch.create(receiver)
   const owner = ContractPromiseBatch.create('adalo.testnet')
-  const fee:u128 = u128.from('100000000000000000000000');
+  const fee:u128 = u128.from('250000000000000000000000');
   // const feePercent:u128 = u128.from('1000000000000000000000000');
   
   // const feeAmount:u128 = u128.rem(context.attachedDeposit,feePercent)

@@ -1,4 +1,4 @@
-const CONTRACT_NAME = process.env.CONTRACT_NAME ||'sendContract'
+const CONTRACT_NAME = process.env.CONTRACT_NAME ||'pay.w-adalo.testnet'
 
 function getConfig(env) {
   switch (env) {
